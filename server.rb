@@ -12,7 +12,7 @@ until they_said == "quit"
 
   socket.puts "What do you say?"
 
-  they_said = socket.gets.chomp
+  they_said = socket.gets.chompgit status
 
 socket.puts "You said: #{they_said}. Goodbye!"
 
